@@ -73,9 +73,9 @@
              
                 <h2> Driving Success: <em>Leading the Way in</em>  <span>Digital Marketing</span> &amp; IT Services</h2>
                 <p>Connecting Vision to Reality: Driving Digital Excellence with IT Solutions & Marketing Strategies.</p>
-                <form id="search" action="#" onsubmit="return analysisSubmit()">
+                <form id="search" action="https://formspree.io/f/xdorarew" method="POST" >
                   <fieldset>
-                    <input type="address" name="address" class="email" placeholder="Your website URL..." autocomplete="on" required>
+                    <input type="email" name="email" class="email" id="email" placeholder="Your website URL..." autocomplete="on" required>
                   </fieldset>
                   <fieldset>
                     <button type="submit"  class="main-button">Analyze Site</button>
@@ -289,7 +289,8 @@
           </div>
         </div>
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="https://formspree.io/f/xdorarew"
+          method="POST">
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
@@ -298,7 +299,7 @@
               </div>
               <div class="col-lg-6">
                 <fieldset>
-                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
+                  <input type="number" name="number" id="number" placeholder="Contact No" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -329,14 +330,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p style="color:white;> © Copyright 2021 Space Dynamic Co. All Rights Reserved. 
-          
+          <p style="color:white";> © Copyright 2021 Space Dynamic Co. All Rights Reserved. 
           <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
         </div>
+
       </div>
     </div>
   </footer>
   <!-- Scripts -->
+  <!-- Add this script tag before your custom JavaScript -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>

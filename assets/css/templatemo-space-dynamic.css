@@ -962,11 +962,6 @@ About Us Style
 .about-us .left-image {
   margin-right: 45px;
 }
-@media only screen and (max-width: 990px) {
-  .about-us .left-image {
-    display: none;
-  }
-}
 
 .about-us .services .item {
   margin-bottom: 30px;
